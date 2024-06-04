@@ -1,0 +1,16 @@
+.underline-color {
+    text-decoration: underline;
+    text-decoration-color: #d36984; /* Replace with your desired color */
+  }
+
+.bg-first{
+  background-color: #fcbd6b;
+}
+
+.bg-second{
+  background-color: #72edf8;
+}
+
+.bg-third{
+  background-color: #70fc9c;
+}
