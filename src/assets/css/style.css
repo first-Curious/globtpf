@@ -252,6 +252,16 @@
     background-size: cover;
 }
 
+.page-header1 {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/carousel-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header2 {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/carousel-3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }

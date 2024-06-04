@@ -5,7 +5,6 @@ import { AboutmainComponent } from './component/aboutmain/aboutmain.component';
 import { MainprogramComponent } from './component/mainprogram/mainprogram.component';
 import { MaincompaignComponent } from './component/maincompaign/maincompaign.component';
 import { MainresourcesComponent } from './component/mainresources/mainresources.component';
-import { GetinvolvedComponent } from './component/getinvolved/getinvolved.component';
 import { PageComponent } from './component/page/page.component';
 import { WhoAreWeComponent } from './component/who-are-we/who-are-we.component';
 import { VisionComponent } from './component/vision/vision.component';
@@ -25,6 +24,11 @@ import { CodeeduComponent } from './component/codeedu/codeedu.component';
 import { Campaign1Component } from './component/campaign1/campaign1.component';
 import { CampaignComponent } from './component/campaign/campaign.component';
 import { Campaign2Component } from './component/campaign2/campaign2.component';
+import { SupportFromIndividualsComponent } from './component/GetInvolve/support-from-individuals/support-from-individuals.component';
+import { PayrollGivingComponent } from './component/GetInvolve/payroll-giving/payroll-giving.component';
+import { SponsersComponent } from './component/GetInvolve/sponsers/sponsers.component';
+import { VolunteerNInternshipComponent } from './component/GetInvolve/volunteer-n-internship/volunteer-n-internship.component';
+import { CareerComponent } from './component/GetInvolve/career/career.component';
 
 export const routes: Routes = [
     {path: "", component: HomeComponent},
@@ -32,7 +36,6 @@ export const routes: Routes = [
     {path: "mainprogram",component: MainprogramComponent},
     {path: "maincompaign",component: MaincompaignComponent},
     {path: "mainresources",component: MainresourcesComponent},
-    {path: "getinvolved",component: GetinvolvedComponent},
     {path: "page",component: PageComponent},
     {path: "contact",component: ContactComponent},
     {path:"program",component:MainprogramComponent},
@@ -57,6 +60,13 @@ export const routes: Routes = [
     {path:"campaign1",component:Campaign1Component },
     {path:"campaign2",component:Campaign2Component },
     {path:"campaign",component:CampaignComponent},
+
+    // GetInvolved
+    {path:"support_from_individual", component:SupportFromIndividualsComponent},
+    {path:"payroll_giving", component:PayrollGivingComponent},
+    {path:"sponserships", component:SponsersComponent},
+    {path:"volunteer&internship", component:VolunteerNInternshipComponent},
+    {path:"career&internship", component:CareerComponent},
 
 
 ];
