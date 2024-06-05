@@ -2,7 +2,9 @@
     text-decoration: underline;
     text-decoration-color: #d36984; /* Replace with your desired color */
   }
-
+.bg-nav{
+  background-color: #d36984;
+}
 .bg-first{
   background-color: #fcbd6b;
 }
@@ -13,4 +15,17 @@
 
 .bg-third{
   background-color: #70fc9c;
+}
+
+.accordion-body.collapse-horizontal {
+  overflow: hidden;
+  transition: width 0.35s ease;
+}
+
+.accordion-body.collapse-horizontal.show {
+  width: 300px;
+}
+
+.accordion-body.collapse-horizontal.collapsing {
+  width: 0;
 }
