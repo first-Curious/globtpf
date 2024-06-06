@@ -17,15 +17,3 @@
   background-color: #70fc9c;
 }
 
-.accordion-body.collapse-horizontal {
-  overflow: hidden;
-  transition: width 0.35s ease;
-}
-
-.accordion-body.collapse-horizontal.show {
-  width: 300px;
-}
-
-.accordion-body.collapse-horizontal.collapsing {
-  width: 0;
-}
